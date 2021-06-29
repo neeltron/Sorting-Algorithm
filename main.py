@@ -1,4 +1,9 @@
-arr = [1, 15, 20, 12, 23, 11]
+arr = []
+nums = int(input("Enter the number of items: "))
+for iter in range(nums):
+  tmp = int(input("Enter a number: "))
+  arr.append(tmp)
+
 swap = True
 
 while swap:
@@ -10,6 +15,6 @@ while swap:
       arr[i+1] = temp
       swap = True
 
-print("The sorted number are:")
+print("The sorted numbers are:")
 for i in arr:
   print(i)
