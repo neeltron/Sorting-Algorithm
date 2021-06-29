@@ -15,6 +15,7 @@ while swap:
       arr[i+1] = temp
       swap = True
 
+
 print("The sorted numbers are:")
 for i in arr:
   print(i)
